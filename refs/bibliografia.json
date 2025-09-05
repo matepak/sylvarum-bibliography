@@ -1,0 +1,217 @@
+[
+	{
+		"id": "http://zotero.org/groups/6137135/items/63U8MLPE",
+		"type": "book",
+		"edition": "3. Bearbeitung.",
+		"event-place": "Breslau",
+		"note": "DOI: 10.5962/bhl.title.9805\npage: 1-788",
+		"number-of-pages": "788",
+		"publisher": "F. Hirt",
+		"publisher-place": "Breslau",
+		"source": "COinS",
+		"title": "Flora von Schlesien, preussischen und österreichischen Antheils, oder, Vom oberen Oder- und Weichsel-Quellen-Gebiet. Nach natürlichen Familien, mit Hinweisung auf das Linnéische System",
+		"URL": "https://www.biodiversitylibrary.org/item/40003",
+		"author": [
+			{
+				"family": "Wimmer",
+				"given": "Friedrich"
+			},
+			{
+				"family": "Wimmer",
+				"given": "Friedrich"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1857"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/6137135/items/ZQ25YM52",
+		"type": "article-journal",
+		"abstract": "Źródła: Estr. nie not. ; GVK Gemeinsamer Verbundkatalog (on line) ; BVB - BibliotheksVerbund Bayern (katalog on line).",
+		"container-title": "223656/2 II",
+		"language": "ger",
+		"license": "Domena publiczna (public domain)",
+		"note": "publisher: bey Wilhelm Gottlieb Korn",
+		"source": "dLibra",
+		"title": "Heinrich Gottfried, Grafens von Mattuschka [...] Flora Silesiaca, oder Verzeichniß der in Schlesien wildwachsenden Pflanzen [...]. T. 2",
+		"URL": "https://www.sbc.org.pl/dlibra/publication/230021/edition/217411",
+		"author": [
+			{
+				"family": "Mattuschka",
+				"given": "Heinrich Gottfried von (1734-1779)"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1777"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/6137135/items/ZN7HRP6Z",
+		"type": "dataset",
+		"language": "pl-PL",
+		"title": "Ziemie polskie Korony w XVI w. Przestrzenna baza danych – Atlas Fontium",
+		"URL": "https://atlasfontium.pl/ziemie-polskie-korony/",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					9,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/6137135/items/NBYM58RS",
+		"type": "article-journal",
+		"abstract": "Quantification of human impact on past forest ecosystems becomes more challenging as one goes deeper into the past.This is primarily due to a scarcity of appropriate source materials. It is well-known that the inclusion of the Polish lands in the zone of economic ties with Western Europe at the end of the 15th century enabled the intensive export of cereal and forest products. In this article, we have used place names established before 1600 not only to demonstrate how ancient forests were exploited but also to reflect on the various environmental effects of these past activities. By analyzing the naming material, we distinguished 3 basic types of names related to logging, industrial production, and wild beekeeping. In addition, we have included several theoretical considerations related to environmental consequences of forest exploitation.",
+		"container-title": "Elem Sci Anth",
+		"DOI": "10.1525/elementa.2023.00065",
+		"ISSN": "2325-1026",
+		"issue": "1",
+		"language": "en",
+		"license": "http://creativecommons.org/licenses/by/4.0/",
+		"page": "00065",
+		"source": "DOI.org (Crossref)",
+		"title": "Human impacts on environment in the preindustrial forest landscapes in Poland—An overview",
+		"URL": "https://online.ucpress.edu/elementa/article/12/1/00065/199749/Human-impacts-on-environment-in-the-preindustrial",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Słowiński",
+				"given": "Michał"
+			},
+			{
+				"family": "Związek",
+				"given": "Tomasz"
+			},
+			{
+				"family": "Swoboda",
+				"given": "Paweł"
+			},
+			{
+				"family": "Niedzielski",
+				"given": "Michał A."
+			},
+			{
+				"family": "Słowińska",
+				"given": "Sandra"
+			},
+			{
+				"family": "Konopski",
+				"given": "Michał"
+			},
+			{
+				"family": "Jonczak",
+				"given": "Jerzy"
+			},
+			{
+				"family": "Kruczkowska",
+				"given": "Bogusława"
+			},
+			{
+				"family": "Chojnacka",
+				"given": "Aleksandra"
+			},
+			{
+				"family": "Róg",
+				"given": "Dominik"
+			},
+			{
+				"family": "Szewczyk",
+				"given": "Krzysztof"
+			},
+			{
+				"family": "Brykała",
+				"given": "Dariusz"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					9,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/6137135/items/EKL932VH",
+		"type": "article-journal",
+		"abstract": "The paper presents the role of watermills in the shaping and evolution of cultural landscape. The distribution of 1217 watermills along rivers in the lower Vistula catchment area since the 12th century has been reconstructed on the basis of cartographic materials and historical sources. Their number changed over time, with the progress of civilisation, as a result of wars, changes in land use, drainage, irrigation and climate change. The 800-year period of the functioning of watermills in Northern Poland has led to the generation of a special type of cultural landscape, termed ‘molinotope’. Out of the wide range of biotic and abiotic factors, the most signiﬁcant role in the shaping of mill-based landscapes was played by artiﬁcial landforms and speciﬁc transformations of the hydrographic network. Taking into account the technological progress, size and nature of changes in the landscape due to the functioning of watermills, a conceptual model of development of mill-based cultural landscapes has been constructed. Results of this study indicate that the status of the mill-based landscape (in each of the 7 distinguished stages of development) corresponds to the types of river landscape, considered as a system of technology and landscape. The full cycle of development of mill-based landscapes concerns only some of the investigated locations and it is determined by the degree of development and use of the landscape since the construction of a watermill until the present day.",
+		"container-title": "Landscape and Urban Planning",
+		"DOI": "10.1016/j.landurbplan.2020.103798",
+		"ISSN": "01692046",
+		"journalAbbreviation": "Landscape and Urban Planning",
+		"language": "en",
+		"page": "103798",
+		"source": "DOI.org (Crossref)",
+		"title": "Evolution of landscapes influenced by watermills, based on examples from Northern Poland",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169204619312010",
+		"volume": "198",
+		"author": [
+			{
+				"family": "Brykała",
+				"given": "Dariusz"
+			},
+			{
+				"family": "Podgórski",
+				"given": "Zbigniew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					9,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6
+				]
+			]
+		}
+	}
+]
