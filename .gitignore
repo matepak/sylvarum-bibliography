@@ -1,0 +1,11 @@
+# zbiory tymczasowe / systemowe
+.DS_Store
+Thumbs.db
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# artefakty lokalne
+/generated/*.bib
