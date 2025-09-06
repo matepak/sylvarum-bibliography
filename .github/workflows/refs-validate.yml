@@ -2,9 +2,9 @@ name: Validate bibliography (.bib)
 
 on:
   pull_request:
-    paths: ['refs/bibliografia.bib', 'scripts/**']
+    paths: ['refs/bibliography.bib', 'scripts/**']
   push:
-    paths: ['refs/bibliografia.bib', 'scripts/**']
+    paths: ['refs/bibliography.bib', 'scripts/**']
 
 jobs:
   validate:
@@ -20,4 +20,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install bibtexparser
       - name: Validate .bib
-        run: python scripts/validate_bib.py refs/bibliografia.bib
+        run: python scripts/validate_bib.py refs/bibliography.bib
