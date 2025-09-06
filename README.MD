@@ -1,4 +1,4 @@
-# Projekt Sylvarum – Bibliografia (CSL JSON → BibTeX w CI)
+# Projekt Sylvarum – Bibliografia
 
 - Źródło prawdy: `refs/bibliografaphy.bib` (eksport z Zotero Group).
 
