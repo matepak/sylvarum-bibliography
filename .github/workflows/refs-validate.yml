@@ -1,0 +1,23 @@
+name: Validate bibliography (.bib)
+
+on:
+  pull_request:
+    paths: ['refs/bibliografia.bib', 'scripts/**']
+  push:
+    paths: ['refs/bibliografia.bib', 'scripts/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install bibtexparser
+      - name: Validate .bib
+        run: python scripts/validate_bib.py refs/bibliografia.bib
