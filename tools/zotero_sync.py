@@ -15,6 +15,8 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 from pyzotero import zotero
+import bibtexparser
+from bibtexparser.bwriter import BibTexWriter
 
 # Ścieżki
 WORKSPACE = Path(__file__).parent.parent
@@ -34,21 +36,13 @@ def export_bib(creds) -> str:
     print("📚 Łączę z Zotero...")
     zot = zotero.Zotero(creds["sylvarumGroupID"], "group", creds["apiKey"])
 
-    print("⬇️  Pobieram pozycje...")
-    items = zot.everything(zot.top())
-    print(f"   Znaleziono {len(items)} pozycji.")
+    print("⬇️  Pobieram pozycje w formacie BibTeX...")
+    db = zot.everything(zot.top(format="bibtex"))
+    print(f"   Znaleziono {len(db.entries)} pozycji.")
 
-    bibtex_chunks = []
-    for item in items:
-        item_key = item["key"]
-        try:
-            bib = zot.item(item_key, format="bibtex")
-            if bib and bib.strip():
-                bibtex_chunks.append(bib.strip())
-        except Exception as e:
-            print(f"   ⚠️  Pominięto {item_key}: {e}")
-
-    return "\n\n".join(bibtex_chunks) + "\n"
+    writer = BibTexWriter()
+    writer.indent = "  "
+    return bibtexparser.dumps(db, writer)
 
 
 def validate(bib_path: Path) -> bool:
